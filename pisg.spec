@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Networking/IRC
 Url: http://pisg.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: perl
 BuildArch: noarch
 

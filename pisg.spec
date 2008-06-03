@@ -1,12 +1,12 @@
 %define name pisg
-%define version 0.71
+%define version 0.72
 %define release %mkrel 1
 
 Summary: An IRC channel statics generator
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: %{name}-%{version}.tar.bz2
+Source0: %{name}-%{version}.tar.gz
 License: GPL
 Group: Networking/IRC
 Url: http://pisg.sourceforge.net/

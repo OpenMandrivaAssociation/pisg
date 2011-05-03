@@ -1,6 +1,6 @@
 %define name pisg
 %define version 0.72
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: An IRC channel statics generator
 Name: %{name}

@@ -1,16 +1,11 @@
-%define name pisg
-%define version 0.72
-%define release 5
-
 Summary: An IRC channel statics generator
-Name: %{name}
-Version: %{version}
-Release: %{release}
-Source0: %{name}-%{version}.tar.gz
+Name: pisg
+Version: 0.73
+Release: 1
+Source0: http://prdownloads.sourceforge.net/pisg/pisg-%{version}.tar.gz
 License: GPL
 Group: Networking/IRC
 Url: http://pisg.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: perl
 BuildArch: noarch
 
@@ -22,7 +17,7 @@ version to anyone interested. It's a funny thing for your IRC channel,
 and it's highly customizeable.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 # Some default configuration setting

@@ -5,7 +5,7 @@ Release: 1
 Source0: http://prdownloads.sourceforge.net/pisg/pisg-%{version}.tar.gz
 License: GPL
 Group: Networking/IRC
-Url: http://pisg.sourceforge.net/
+Url: https://pisg.sourceforge.net/
 BuildRequires: perl
 BuildArch: noarch
 
